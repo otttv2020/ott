@@ -1,0 +1,15 @@
+﻿<addons>
+<addon id="repository.otttv" name="Over The Top TV Repo" version="5.0.1" provider-name="OTTTV">
+	<extension point="xbmc.addon.repository" name="Over The Top TV Repository">
+		<info compressed="false">https://raw.githubusercontent.com/otttv2020/ott/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/otttv2020/ott/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/otttv2020/ott/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Over The Top TV </summary>
+		<description>Download and install Over The Top TV </description>
+		<disclaimer> Repository </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
